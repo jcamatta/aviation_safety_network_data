@@ -1,14 +1,23 @@
 # AVIATION SAFETY NETWORK DATA
 
+<p align=center><img src="./aviones_fiumba.png"><p>
+
 ## DESCRIPCION GENERAL
 
 Este repositorio contiene el scraping realizado a la base de datos: https://aviation-safety.net/database/
 
 Actualmente el dataset resultante abarca *1919* hasta el *18 de Mayo del 2023.* Contiene 20711 registros con 30 campos.
 
-No se encontro otro notebook por internet que hiciese lo propio.
+No se encontro otro por internet que hiciese lo propio.
 
-El unico repositorio similar pero no igual que encontre es el siguiente: https://github.com/alsonpr/Aviation-Safety-Network-Dataset. 
+El unico repositorio similar pero no igual que encontre es el siguiente: https://github.com/alsonpr/Aviation-Safety-Network-Dataset.
+
+### ARCHIVOS
+scraper_aviation_safety_network.ipynb es el notebook que contiene el codigo del scraper usando selenium.
+
+aviation_safety_network.json contiene la data de cada accidente/indicidente
+
+links.csv es un archivo donde cada filas es un URL que abarca cada accidente desde *1919* hasta *2023*
 
 ### DIFERENCIAS CON OTROS
 
@@ -25,11 +34,11 @@ Por lo que el numero de columnas es mucho mayor a 30.
 
 (2)
 
-Este notebook, no solo tiene el dataset con la data asociada a cada accidente, sino que tiene los links asociados a cada accidente. Por lo que es facilmente actualizable y/o modificable. Supongamos que queres extraer mas informacion, como la imagen asociada al incidente, puedes adaptar facilmente este codigo para lograr dicho objetivo.
+Este repositorio, no solo tiene el dataset con la data asociada a cada accidente, sino que tiene los links asociados a cada accidente. Por lo que es facilmente actualizable y/o modificable. Supongamos que queres extraer mas informacion, como la imagen asociada al incidente, puedes adaptar facilmente este codigo para lograr dicho objetivo.
 
 (3)
 
-Este notebook, incluye el web-scraper asociado. De este modo, asociandolo con lo anterior, te permite re-adaptar el codigo a tu situacion o gusto. Sin embargo, ten presente, que en mi caso particular, al codigo le tomo las mas de 20 links asociados, alrededor de 5 horas. Fui y volvi del GYM, merende, me bañe, y cague tambien (si, me tomo 5 horas eso, cago despacio).
+El notebook, incluye el web-scraper asociado. De este modo, asociandolo con lo anterior, te permite re-adaptar el codigo a tu situacion o gusto. Sin embargo, ten presente, que en mi caso particular, al codigo le tomo las mas de 20 links asociados, alrededor de 5 horas. Fui y volvi del GYM, merende, me bañe, y cague tambien (si, me tomo 5 horas eso, cago despacio).
 
 ### DEFINICION DE COLUMNAS
 
